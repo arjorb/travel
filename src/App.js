@@ -1,7 +1,11 @@
+import Navbar from './components/Navbar';
+
 function App() {
   return (
-    <div className='App'>
-      <h1 className='text-3xl text-[#087b87] font-bold underline'>Seting up the Environment!</h1>
+    <div className='flex justify-center mt-10'>
+      <div className='w-[550px] rounded-md overflow-hidden shadow-xl'>
+        <Navbar />
+      </div>
     </div>
   );
 }
